@@ -8,7 +8,7 @@ class Actor(models.Model):
     first_name = models.CharField(max_length=45)
     last_name = models.CharField(max_length=45)
     date_of_birth = models.DateField(auto_now=False, auto_now_add=False)
-
+    
     class Meta:
         db_table = 'actors'
 
